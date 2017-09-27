@@ -1,0 +1,263 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family: 'Muli', sans-serif;
+}
+
+.navHeader{
+    width: 100%;
+    height: 55px;
+    display:inline-block;
+}
+.wrapHeader{
+    padding: 0 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contenidoHeader{
+	position: relative;
+    padding: 0 0 0 80px;
+}
+.logo{
+    height: 63px;
+    width: 275px;
+    position: absolute;
+    left: 0;
+    margin-top: 2px;
+}
+.info-header{
+	float: right;
+	margin-top: 8px;
+	padding: 2%;
+	color: #848484;
+	font-size: 20px;
+}
+div a i .asd{
+	color: #3be5e5;
+}
+
+nav {
+	width: 100%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 15px;
+    border-bottom: 1px solid #848484;
+    border-top: 1px solid #848484;
+}
+.menu-nav{
+	margin-left: 26%;
+}
+div .bgc{
+	display: inline-block;
+	padding: 8px;
+}
+.menu a{
+	color: #848484;
+	text-decoration: none;
+	font-size: 18px;
+	margin-right: 55px;
+}
+.menu .bgc :hover {
+	font-weight: bold;
+	color: #424242; 
+}
+
+.menu .bgc :active {
+	text-decoration: underline;
+	
+}
+div img {
+	width: 100%;
+	height: 50%;
+	display: inline-block;
+}
+.container-icon {
+	margin-left: 5%;
+	margin-top: 1%;
+}
+.box-icon {
+	display: inline-block;
+	margin-left: 10%;
+
+}
+.icon {
+	color: #3be5e5;
+	margin-left: 20%; 
+}
+div h3 {
+	color: #000;
+	font-size:27px;
+}
+div h6 {
+	color: #848484;
+	font-size: 12px;
+	margin-left: 13%
+}
+div button {
+	color: white ;
+	background-color: #3be5e5;
+	margin-left: 22%;
+	padding: 5px;
+	border-radius: 5px;
+}
+.under-icon{
+	border-radius: 8px;
+	width: 70%;
+	margin-left: 15%;
+	padding:15px; 
+
+	/* display: inline-block;
+	margin-left: 25%;
+	 Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45b7b7+4,2fa5a3+35,237974+74,237974+97,237974+97,237974+97,237974+99,237974+99,237974+100,45b7b7+100,237974+100,237974+100,237974+100,237974+100 */
+background: #45b7b7; /* Old browsers */
+background: -moz-linear-gradient(left, #45b7b7 4%, #2fa5a3 35%, #237974 74%, #237974 97%, #237974 97%, #237974 97%, #237974 99%, #237974 99%, #237974 100%, #45b7b7 100%, #237974 100%, #237974 100%, #237974 100%, #237974 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #45b7b7 4%,#2fa5a3 35%,#237974 74%,#237974 97%,#237974 97%,#237974 97%,#237974 99%,#237974 99%,#237974 100%,#45b7b7 100%,#237974 100%,#237974 100%,#237974 100%,#237974 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #45b7b7 4%,#2fa5a3 35%,#237974 74%,#237974 97%,#237974 97%,#237974 97%,#237974 99%,#237974 99%,#237974 100%,#45b7b7 100%,#237974 100%,#237974 100%,#237974 100%,#237974 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45b7b7', endColorstr='#237974',GradientType=1 ); /* IE6-9 */
+}
+.box-noved{
+	display: inline-block;
+	padding-right: 135px;
+	margin-left: 50px;
+	color: #fff;
+}
+.box-horar{
+	display: inline-block;
+	padding-right: 50px;
+	color: #fff;	
+}
+.box-form{
+	display:inline-block;
+	margin-top: 15px;
+}
+div input {
+	padding: 7px;
+  	border: solid 1px #5f7a79;
+  	box-shadow: inset 1px 1px 2px 0 #137a6a;
+  	transition: box-shadow 0.3s;
+  	margin-bottom: 2px;
+  	width: 250px;
+}
+
+ul li{
+	list-style:none;
+}
+.btn-env{
+	background-color: #23afa8;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    width: 45%;
+    display: inline-block;
+    margin-left: 70px;
+}
+#serv{
+	display: inline-block;
+	margin-left: 15%;
+}
+#serv div img {
+	width: 255px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 5px;
+	
+}
+.serv{
+	display: inline-block;
+	padding:10px; 
+}
+div .pserv{
+	font-size:27px;
+	margin-left: 15%;
+	color:#444f5d;
+}
+div .ns{
+	font-size:27px;
+	color:#444f5d;
+	padding: 3%;
+}
+footer{
+	background-color: #237974;
+	color: #242628;
+
+}
+
+.info-footer, .redes-footer, .derechos-footer, .info-desarrollo-footer{
+	margin-left: 10%;
+	display: inline-block;
+}
+.redes-footer{
+	padding-bottom: 10px;
+}
+
+dl dd{
+	font-size: 15px;
+}
+div a{
+	text-decoration: none;
+	color:#eff0f1;
+}
+div a :hover{
+	cursor: pointer;
+}
+div a i{
+	color: #242628;
+}
+.extra {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
